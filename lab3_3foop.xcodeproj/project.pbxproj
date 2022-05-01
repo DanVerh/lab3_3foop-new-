@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E158953281EA3A5008B79C2 /* Money.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E158951281EA3A5008B79C2 /* Money.cpp */; };
-		1E158955281EA3B3008B79C2 /* Source.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E158954281EA3B3008B79C2 /* Source.cpp */; };
-		1E15895E281EAA02008B79C2 /* Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E15895C281EAA02008B79C2 /* Account.cpp */; };
+		1E158965281ECEAB008B79C2 /* AccountPr.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E15895F281EC7AC008B79C2 /* AccountPr.cpp */; };
+		1E158966281ECEAD008B79C2 /* Source.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E158954281EA3B3008B79C2 /* Source.cpp */; };
+		1E158967281ECEAF008B79C2 /* Account.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E15895C281EAA02008B79C2 /* Account.cpp */; };
+		1E158968281ECEB2008B79C2 /* Money.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1E158951281EA3A5008B79C2 /* Money.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,10 @@
 		1E158954281EA3B3008B79C2 /* Source.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Source.cpp; sourceTree = "<group>"; };
 		1E15895C281EAA02008B79C2 /* Account.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Account.cpp; sourceTree = "<group>"; };
 		1E15895D281EAA02008B79C2 /* Account.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Account.hpp; sourceTree = "<group>"; };
+		1E15895F281EC7AC008B79C2 /* AccountPr.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AccountPr.cpp; sourceTree = "<group>"; };
+		1E158960281EC7AC008B79C2 /* AccountPr.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AccountPr.hpp; sourceTree = "<group>"; };
+		1E158962281ECDC5008B79C2 /* catch.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = catch.cpp; sourceTree = "<group>"; };
+		1E158963281ECDC5008B79C2 /* catch.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = catch.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +73,10 @@
 				1E15895C281EAA02008B79C2 /* Account.cpp */,
 				1E15895D281EAA02008B79C2 /* Account.hpp */,
 				1E158954281EA3B3008B79C2 /* Source.cpp */,
+				1E15895F281EC7AC008B79C2 /* AccountPr.cpp */,
+				1E158960281EC7AC008B79C2 /* AccountPr.hpp */,
+				1E158962281ECDC5008B79C2 /* catch.cpp */,
+				1E158963281ECDC5008B79C2 /* catch.hpp */,
 			);
 			path = lab3_3foop;
 			sourceTree = "<group>";
@@ -129,9 +138,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E158953281EA3A5008B79C2 /* Money.cpp in Sources */,
-				1E15895E281EAA02008B79C2 /* Account.cpp in Sources */,
-				1E158955281EA3B3008B79C2 /* Source.cpp in Sources */,
+				1E158966281ECEAD008B79C2 /* Source.cpp in Sources */,
+				1E158967281ECEAF008B79C2 /* Account.cpp in Sources */,
+				1E158968281ECEB2008B79C2 /* Money.cpp in Sources */,
+				1E158965281ECEAB008B79C2 /* AccountPr.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

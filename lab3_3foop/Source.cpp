@@ -1,5 +1,6 @@
 //Source.cpp
 
+#include "AccountPr.hpp"
 #include "Account.hpp"
 #include "Money.hpp"
 #include <iostream>
@@ -15,6 +16,13 @@ int main() {
     a.Display();
     a.Dollar();
     a.Display();
+    
+    AccountPr c;
+    c.Init("bill", 0102, 1.3, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+    c.Display();
+    c.Withdraw(b);
+    c.Display();
+    
     
     
     return 0;
