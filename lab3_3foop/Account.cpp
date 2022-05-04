@@ -81,6 +81,18 @@ Account Account::operator --(int)
     return tmp;
 }
 
+ostream& operator <<(ostream& out, Account a) {
+    out << a.name << endl;
+    out << a.num << endl;
+    out << a.perc << endl;
+    return out;
+}
 
+istream& operator >>(istream& in, Account& a) {
+    cout << " Name: "; in >> a.name;
+    cout << " Number: "; in >> a.num;
+    cout << " Percent: "; in >> a.perc;
+    return in;
+}
 
 

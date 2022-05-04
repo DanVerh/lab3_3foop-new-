@@ -13,17 +13,8 @@ int main() {
     a.Init("john", 0101, 1.5);
     a.Money::Init(2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
     Money b(2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-    a.Display();
-    a.Dollar();
-    a.Display();
-    
-    AccountPr c;
-    c.Init("bill", 0102, 1.3, 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
-    c.Display();
-    c.Withdraw(b);
-    c.Display();
-    
-    
+    cout << a;
+    cout << b;
     
     return 0;
 }

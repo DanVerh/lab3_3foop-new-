@@ -35,5 +35,8 @@ public:
     Account& operator --();
     Account operator ++(int);
     Account operator --(int);
+    
+    friend istream& operator >>(istream&, Account&);
+    friend ostream& operator <<(ostream&, Account a);
 };
 
